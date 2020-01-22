@@ -1,0 +1,50 @@
+pre{
+	background: black;
+	color:white;
+	padding: 10px;
+	font-family: monospace;
+	overflow: scroll;
+}
+#wrapper {
+	max-width: 1020px;
+	padding: 10px;
+	margin: 0 auto;
+}
+h3 {
+	font-size: 28px;
+	color:#059;
+}
+h4 {
+	background: #059;
+	color:white;
+	padding: 10px;
+}
+
+.history ul{
+	border: 1px solid black;
+	margin: 0px;
+	padding: 0px;
+	overflow-y: scroll;
+	height: 200px;
+	list-style: none;
+}
+.history ul li{
+	margin: 5px;
+	padding: 5px;
+	border-top: 1px solid black;
+}
+
+/*
+.pager {
+	margin: 0 auto;
+	max-width: 500px;
+}
+.page-btn{
+	display: inline-block;
+	background: #059;
+	color: #f2f2f2;
+	padding: 5px;
+	margin: 0 auto;
+	width: 200px;
+}
+*/

@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+/* このファイルにあるコメント内の「ボタン」という表現には画像と数値を両方含みます */
+
+/* ボタン */
+.good-btn {
+	color: #df5656;
+	border: #df5656 3px solid;
+	background: transparent;
+	cursor: pointer;
+	border-radius: 50%;
+	height: 60px; /* heightとwidthを同じにするとまんまるになります。 */
+	width: 60px;
+	-webkit-transition: all .2s;
+	        transition: all .2s;
+	-webkit-transform: rotateY(0deg);
+	        transform: rotateY(0deg);
+	box-sizing: border-box;
+	font-size: 14px; /* 文字サイズ */
+}
+
+/* ボタンがクリックされたとき */
+.good-btn:focus{
+	outline: none;
+}
+
+/* ボタン内の画像 */
+.good-btn-icon{
+	margin: 0 auto;
+	width: 17px;
+}
+
+/* ボタンhover時 */
+.good-btn:hover {
+	background:#df5656;
+	color: white;
+}
+
+/* ボタン内の数値 */
+.good-count {
+	display: block;
+	vertical-align: super;
+	font-weight: bold;
+}
+
+/*
+ 回転処理用クラス
+ ボタンが押されるとこのクラスが付与されたり消えたりする
+ */
+.good-btn-rotate {
+	-webkit-transform: rotateY(360deg);
+	        transform: rotateY(360deg);
+}
+
+/*
+.good-btn-img img{
+	max-width: 100%;
+}
